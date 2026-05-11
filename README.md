@@ -41,7 +41,7 @@ python tools/wiki_search.py "naselbinska imena"
 python tools/wiki_lint.py
 ```
 
-## How students should ask
+## How one should ask
 
 Ask in Slovenian or English, but require source-grounded answers:
 
