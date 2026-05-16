@@ -1,0 +1,13 @@
+# Societies and Cultures of the English-Speaking World The Outer CircleEast Africa
+
+**Kenya**, a British colony between 1920 and 1963, has a large number of different ethnic groups. The two official languages of the country are English and Swahili, although over 60 indigenous East African languages are also spoken in Kenya. English is the language of higher education and the government and the language of international business, whereas Swahili is used as a lingua franca in all spheres of public life, and primary education. Both English and Swahili are used by the media.
+
+**Malawi**, the former British Nyasaland Protectorate, became an independent country in 1964. The two official languages are English and Chewa (Nyanja), while a number of other indigenous languages are also used in the country.
+
+The present-day **Tanzania** consists of former British colonies of Tanganyka and Zanzibar. Today the official languages of Tanzania are Swahili, the East African lingua franca originating in Zanzibar, and English.
+
+Parts of the present-day **Uganda** first became a British protectorate in 1894. Gradually new territories were added to it and the protectorate received its final shape in 1914. Uganda became an independent country in 1962. After becoming independent, Uganda went through a period of political unrest, civil war, human rights abuse and economic disaster, culminating in the regime of Idi Amin in the 1970s. Today Uganda is relatively stable and successful in its fight against poverty. A number of East African languages are spoken in Uganda, but English is the official language, and Swahili is often used as a lingua franca.
+
+**Zambia**, formerly a British protectorate called Northern Rhodesia, achieved independence in 1964. English is the official language of the country, but several regional languages are widely used in communication.
+
+**Zimbabwe**, the former British protectorate known as Southern Rhodesia, had a turbulent transition to independence. In 1965, the white colonists, a minority, but the ruling class, declared independence from Britain and soon introduced a system of racial segregation. Rhodesia, as it was known at the time, was not recognized internationally. Resistance to the government grew and a civil war followed. The country became independent in 1980, when the first free elections were held and political power was transferred to the black majority. The controversial land redistribution scheme of 2000 (taking the land away from the whites and redistributing it to the black population) has resulted in accusations of human rights abuse. English is the official language of the country and Shona and Ndebele have the status of national languages, although many other languages are also used in Zimbabwe.
