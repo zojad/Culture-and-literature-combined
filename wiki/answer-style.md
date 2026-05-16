@@ -2,18 +2,37 @@
 title: Answer style
 type: schema
 status: active
-last_updated: 2026-05-11
+last_updated: 2026-05-16
 ---
 
 # Answer style
 
-Use this order for student-facing answers:
+Use this order for student-facing exam answers:
 
-1. **Practical answer** — one or two sentences the student can use immediately.
-2. **Why** — short explanation of the relevant rule or grammar category.
-3. **Examples** — clearly mark whether examples are quoted from the corpus or created by you.
-4. **Sources** — cite PDF page and Markdown path.
+1. **Thesis** — one sentence that directly answers the prompt.
+2. **Core points** — 2-4 short paragraphs.
+3. **Mini-analysis** — 1 short paragraph connecting causes/consequences.
+4. **Sources** — cite corpus file paths used.
 
-For ambiguous or historically shifting issues, say what the local corpus supports and what remains open.
+## Core-point paragraph rules
 
-Do not silently modernize SP 2001 or Toporišič. If a future source such as Jezikovna svetovalnica gives a later interpretation, present it as an additional source layer and explain the relation.
+- Each paragraph should be short (roughly 2-4 sentences, similar length to previous bullet text).
+- Each paragraph should make one clear claim.
+- Prefer this pattern: **claim -> brief evidence/detail -> why it matters**.
+- Avoid telegraphic note style (fragmented names/dates with no interpretation).
+- If you include names/dates, add one sentence explaining impact or relevance.
+
+## Required behavior
+
+- For `when was / who wrote / what happened` prompts: answer fact first, then context.
+- If sources differ or are vague: say so explicitly and provide the strongest available citation.
+- Distinguish source facts from your explanatory phrasing.
+- Keep language oral-exam friendly: compact, specific, chronological where relevant.
+
+## Mini template
+
+- Thesis: one direct answer sentence.
+- Paragraph 1: context with timeframe.
+- Paragraph 2-3: key developments as full claims.
+- Paragraph 4 (optional): interpretation/comparison.
+- Close: one synthesis sentence.

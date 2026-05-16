@@ -2,26 +2,21 @@
 title: Quality notes
 type: maintenance
 status: active
-last_updated: 2026-05-11
+last_updated: 2026-05-16
 ---
 
 # Quality notes
 
-The corpus was extracted from PDF text layers.
+The corpus is extracted from mixed materials (articles, handouts, outlines, lecture notes).
 
 Known caveats:
 
-- Some pages have OCR or font-layer noise.
-- Tables, diagrams, and special characters may need manual checking against the raw PDF.
-- SP 2001 had common mojibake for Slovenian letters; the extracted Markdown repairs frequent cases such as `č`, `š`, `ž`, `Č`, `Š`, `Ž`, `ć`, `đ`.
-- Toporišič uses an OCR/text layer; sparse pages and front/back matter are flagged in Markdown frontmatter.
+- Some files are broad outlines and may be less precise than textbook passages.
+- Some files are worksheet-like (`PD*`) and can be noisy for factual retrieval.
+- OCR/source formatting issues may appear in punctuation or spacing.
 
-When a page has `quality_flags`, cite it cautiously and inspect the original PDF for high-stakes wording.
+When answer quality matters:
 
-Useful checks:
-
-```bash
-python tools/context.py "<query>" --limit 8
-python tools/search.py "<query>" --source sp2001
-python tools/search.py "<query>" --source toporisic_slovnica
-```
+- prefer chunked retrieval (`python tools/exam_context.py ...`),
+- prioritize article/textbook sections over worksheet chunks,
+- cross-check dates/names across at least two relevant hits when possible.

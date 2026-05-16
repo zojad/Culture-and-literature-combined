@@ -1,15 +1,13 @@
 # Corpus instructions
 
-The corpus source layer lives in:
+The source layer lives in:
 
-- `data/raw/` for PDFs,
-- `data/corpus/pages/` for page-level Markdown,
+- `data/corpus/pages/` for source Markdown,
 - `data/index/search.sqlite` for FTS search.
 
-For language answers:
+For answers:
 
-- Search the corpus before answering.
-- Cite PDF page and Markdown path.
-- Prefer `SP 2001` for normative pravopis.
-- Prefer `Toporišič` for grammar and linguistic explanation.
-- Do not modify extracted source pages unless doing a deliberate extraction rebuild.
+- Search corpus before answering.
+- Cite Markdown path(s).
+- Prefer precise section-level evidence from chunked retrieval.
+- Do not modify source pages unless doing a deliberate ingest/rebuild.

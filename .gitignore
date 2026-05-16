@@ -8,3 +8,9 @@ dist/
 .DS_Store
 # Raw PDFs are included in the zip for local checking, but should not be committed accidentally.
 data/raw/*.pdf
+
+# Local retrieval build artifact
+data/index/search.sqlite
+
+# Temporary backups
+*.bak

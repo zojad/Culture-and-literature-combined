@@ -2,20 +2,21 @@
 title: Open questions
 type: maintenance
 status: active
-last_updated: 2026-05-11
+last_updated: 2026-05-16
 ---
 
 # Open questions
 
-Track unresolved source gaps and recurring student questions that deserve durable pages.
-
 ## To investigate
 
-- Build a durable rule page for comma use before relative clauses such as **ki**, with SP 2001 as the normative source and Toporišič for syntactic explanation.
-- Build a page on writing together/apart once students ask concrete cases.
-- Build a page on sklanjanje difficult nouns once student examples appear.
-- After permissions are settled, ingest Jezikovna svetovalnica and update affected rule pages.
+- Build model answers for all canonical `questions_ff` prompt types.
+- Build concise timeline pages with verified anchor dates for UK history periods.
+- Build author-work quick-reference pages for major UK/US literary periods.
+- Add a lightweight source quality ranking (textbook > article > outline > worksheet).
 
-## Resolved
+## needs_source (glossary candidates)
 
-None yet.
+- **Victorian values**: appears in exam prompts; add only after a direct definitional corpus passage is pinned.
+- **Postmodernism**: appears in exam prompts; corpus support is currently too indirect for a strict glossary definition.
+- **New Journalism**: currently only contextual support; add after direct definitional passage is pinned.
+- **Interculturality**: appears in exam prompts; add after stronger direct corpus support is pinned.

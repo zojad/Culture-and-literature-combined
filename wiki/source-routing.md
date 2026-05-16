@@ -2,42 +2,42 @@
 title: Source routing
 type: schema
 status: active
-last_updated: 2026-05-11
+last_updated: 2026-05-16
 sources:
-  - sp2001
-  - toporisic_slovnica
+  - brit_culture
+  - brit_literature
+  - us_culture
+  - us_literature
 ---
 
 # Source routing
 
-## Use SP 2001 first for
+## Use `brit_culture` first for
 
-- velika/mala začetnica,
-- vejica and other punctuation,
-- pisanje skupaj/narazen,
-- prevzete besede,
-- deljenje besed,
-- okrajšave, simboli, pisna znamenja,
-- normative spellings.
+- British Empire and Commonwealth
+- UK political/history periods
+- monarchy, institutions, constitutional topics
+- Magna Carta / Domesday historical framing
 
-SP 2001 itself describes pravopis as covering zapisovanje glasov, rabo velikih in malih črk, pisanje prevzetih besed, rabo ločil, pisanje skupaj ali narazen, and deljenje. Source: SP 2001, PDF page 9, `data/corpus/pages/sp2001/page_0009.md`.
+## Use `brit_literature` first for
 
-## Use Toporišič first for
+- British literary periods (Medieval, Renaissance, etc.)
+- author-work mapping in UK literature
+- literary movement context in the British canon
 
-- besedne vrste,
-- sklanjanje and spreganje as system,
-- skladnja,
-- glasoslovje,
-- besedotvorje,
-- zvrstnost,
-- terminology and linguistic background.
+## Use `us_culture` first for
 
-Toporišič's table of contents organizes the grammar around chapters such as zvrstnost, glasoslovje, besedoslovje, besedotvorje, oblikoslovje, skladnja, sporočanje, and language history. Source: Toporišič, Slovenska slovnica, PDF pages 12–13, `data/corpus/pages/toporisic_slovnica/page_0012.md`, `data/corpus/pages/toporisic_slovnica/page_0013.md`.
+- US institutions, constitutional/history topics
+- US social/cultural developments
+- Commonwealth-related comparative context where present
 
-## Use both for
+## Use `us_literature` first for
 
-Questions where the student needs a practical norm plus a grammar explanation, for example:
+- American literary periods, writers, works
+- canon overviews and periodization in American literature
 
-- why a form is grammatical but not stylistically neutral,
-- why a punctuation rule exists,
-- how a spelling rule relates to syntax or word formation.
+## Use multiple sources when
+
+- question asks both history and literature
+- question asks for impact over time
+- question compares British and American developments

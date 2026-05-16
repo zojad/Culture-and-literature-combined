@@ -2,32 +2,168 @@
 title: Glossary
 type: glossary
 status: active
-last_updated: 2026-05-11
+last_updated: 2026-05-16
 sources:
-  - sp2001
-  - toporisic_slovnica
+  - brit_culture
+  - brit_literature
+  - us_culture
+  - us_literature
 ---
 
 # Glossary
 
-Build this page as students encounter recurring terms.
+## British Empire
 
-## pravopis
+A global imperial system built by Britain through colonial expansion and later decline/decolonization.
 
-Rules for written language, including letters, capitalization, punctuation, word division, loanword writing, and writing together/apart. SP 2001 defines pravopis as covering zapisovanje glasov, rabo velikih in malih črk, pisanje prevzetih besed, rabo ločil, pisanje skupaj ali narazen, and deljenje. Source: SP 2001, PDF page 9, `data/corpus/pages/sp2001/page_0009.md`.
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 2 del.md`.
 
-## slovnica
+## Commonwealth
 
-Grammar; the structural description of language across phonology, morphology, syntax, word formation, varieties, communication, and historical development. Toporišič's contents show those major chapters. Source: Toporišič, Slovenska slovnica, PDF pages 12–13, `data/corpus/pages/toporisic_slovnica/page_0012.md`, `data/corpus/pages/toporisic_slovnica/page_0013.md`.
+A voluntary association/network of independent states, many historically linked to the British Empire.
 
-## normativno
+Source: `data/corpus/pages/us_culture/PD1 (1).md`, `data/corpus/pages/us_culture/Colonialism lingers.md`.
 
-Presented as a rule or recommendation for standard written usage. In this repo, normative answers normally start from SP 2001.
+## Anglo-Saxon period
 
-## opisno / razlagalno
+Early historical period in England before the Norman Conquest.
 
-Explanatory account of how the language system works. In this repo, descriptive and explanatory answers normally start from Toporišič.
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
 
-## zvrst
+## Norman period
 
-A form or variety of Slovenian. Toporišič groups varieties into social, functional, medium-related, temporal/historical, and metrical groups. Source: Toporišič, Slovenska slovnica, PDF page 16, `data/corpus/pages/toporisic_slovnica/page_0016.md`.
+Period shaped by the Norman Conquest and subsequent Norman rule.
+
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
+
+## Magna Carta
+
+Charter associated with limiting royal abuse and later constitutional significance.
+
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`, `data/corpus/pages/brit_culture/British society and culture Outline.md`.
+
+## Domesday Book
+
+Norman-era land and taxation record (1086).
+
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
+
+## English Renaissance
+
+Early modern English period linked to Elizabethan and Jacobean literary production.
+
+Source: `data/corpus/pages/brit_literature/British Literature Lectures.md`.
+
+## Civil War (English Civil War)
+
+Major constitutional-political conflict tied to monarchy-Parliament struggle and regime change.
+
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`, `data/corpus/pages/brit_literature/British Literature Lectures.md`.
+
+## Protectorate
+
+Republican phase after Charles I's execution and abolition of monarchy/House of Lords.
+
+Source: `data/corpus/pages/brit_literature/British Literature Lectures.md`.
+
+## Restoration
+
+Return of monarchy after republican rule.
+
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
+
+## Victorian period
+
+19th-century period associated with Queen Victoria and broad social/cultural change.
+
+Source: `data/corpus/pages/brit_literature/British Literature Lectures.md`, `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
+
+## Anglican Church
+
+Church tradition central to English/British historical development.
+
+Source: `data/corpus/pages/brit_literature/British Literature Lectures.md`, `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
+
+## British Parliament
+
+UK legislative institution composed of Commons and Lords.
+
+Source: `data/corpus/pages/brit_culture/British society and culture Outline.md`, `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
+
+## House of Commons
+
+Elected chamber of the UK Parliament.
+
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
+
+## House of Lords
+
+Non-elected chamber of the UK Parliament.
+
+Source: `data/corpus/pages/brit_culture/British Civilization An Introduction (John Oakland) 1 del.md`.
+
+## Declaration of Independence
+
+Foundational US text declaring separation from British rule and stating political principles.
+
+Source: `data/corpus/pages/us_literature/AmLit_zapiski.md`, `data/corpus/pages/us_culture/Declaration of Independence.md`.
+
+## Separation of powers
+
+Constitutional division of authority among legislative, executive, and judicial branches.
+
+Source: `data/corpus/pages/us_culture/American Civilization - Mauk, David 1 del.md`.
+
+## US Congress
+
+Federal legislative body in US constitutional structure.
+
+Source: `data/corpus/pages/us_culture/constitution.md`, `data/corpus/pages/us_culture/American Civilization - Mauk, David 1 del.md`.
+
+## American Romanticism
+
+Literary movement category used in American periodization and author grouping.
+
+Source: `data/corpus/pages/us_literature/AmLit_zapiski.md`.
+
+## Realism (American literature)
+
+Movement label in American literary periodization.
+
+Source: `data/corpus/pages/us_literature/AmLit_zapiski.md`.
+
+## Modernism (American literature)
+
+Movement label associated with formal/chronological experimentation in literary writing.
+
+Source: `data/corpus/pages/us_literature/AmLit_zapiski.md`.
+
+## Lost Generation
+
+Label linked to post-WWI writer/artist disillusionment.
+
+Source: `data/corpus/pages/us_literature/AmLit_zapiski.md`.
+
+## Naturalism
+
+Movement label in American literary classification.
+
+Source: `data/corpus/pages/us_literature/AmLit_zapiski.md`.
+
+## Colonialism
+
+System of imperial control/exploitation and its long-term effects.
+
+Source: `data/corpus/pages/brit_literature/150209 (Post)colonial literatures in English.md`, `data/corpus/pages/us_culture/Colonialism lingers.md`.
+
+## Postcolonialism
+
+Framework used to discuss colonial legacies in literature, identity, and culture.
+
+Source: `data/corpus/pages/brit_literature/150209 (Post)colonial literatures in English.md`.
+
+## Anglophone
+
+English-speaking in population/region framing.
+
+Source: `data/corpus/pages/us_culture/PD1 (1).md`.

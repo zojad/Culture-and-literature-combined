@@ -2,12 +2,12 @@
 title: Saved question pages
 type: index
 status: active
-last_updated: 2026-05-11
+last_updated: 2026-05-16
 ---
 
 # Saved question pages
 
-Use this folder for durable answers that students are likely to ask again.
+Use this folder for durable exam answers likely to recur.
 
 Naming convention:
 
@@ -19,15 +19,13 @@ Suggested frontmatter:
 
 ```yaml
 ---
-title: "Ali je pravilno Novo mesto ali Novo Mesto?"
+title: "Comment on the British Empire and Commonwealth"
 type: question
 status: active
 last_updated: YYYY-MM-DD
 sources:
-  - sp2001
+  - brit_culture
 related:
-  - ../rules/velika-zacetnica-naselbinska-imena.md
+  - ../exam/themes/british-empire-and-commonwealth.md
 ---
 ```
-
-Question pages should link back to rule or concept pages rather than becoming isolated one-off notes.

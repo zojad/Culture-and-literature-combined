@@ -20,19 +20,39 @@ def build_query(q: str, operator: str = "and") -> str:
     return sep.join(tokens)
 
 
+def table_exists(cur: sqlite3.Cursor, table_name: str) -> bool:
+    row = cur.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name=?", (table_name,)).fetchone()
+    return row is not None
+
+
 def get_rows(query: str, limit: int):
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
-    sql = """
-        SELECT p.id, p.source_id, p.short_title, p.source_kind, p.page_number, p.path, p.quality_flags, p.text,
-               bm25(pages_fts) AS rank
-        FROM pages_fts
-        JOIN pages p ON p.id = pages_fts.rowid
-        WHERE pages_fts MATCH ?
-        ORDER BY rank
-        LIMIT ?
-    """
+
+    if table_exists(cur, "chunks_fts"):
+        sql = """
+            SELECT c.id, c.source_id, c.short_title, c.source_kind, c.page_number, c.path,
+                   c.section_title, c.quality_flags, c.text,
+                   bm25(chunks_fts) AS rank
+            FROM chunks_fts
+            JOIN chunks c ON c.id = chunks_fts.rowid
+            WHERE chunks_fts MATCH ?
+            ORDER BY rank
+            LIMIT ?
+        """
+    else:
+        sql = """
+            SELECT p.id, p.source_id, p.short_title, p.source_kind, p.page_number, p.path,
+                   '' as section_title, p.quality_flags, p.text,
+                   bm25(pages_fts) AS rank
+            FROM pages_fts
+            JOIN pages p ON p.id = pages_fts.rowid
+            WHERE pages_fts MATCH ?
+            ORDER BY rank
+            LIMIT ?
+        """
+
     rows = cur.execute(sql, [build_query(query, "and"), limit]).fetchall()
     if not rows:
         rows = cur.execute(sql, [build_query(query, "or"), limit]).fetchall()
@@ -76,12 +96,14 @@ def main() -> None:
         print(f"- Source ID: `{row['source_id']}`")
         print(f"- Kind: `{row['source_kind']}`")
         print(f"- Markdown path: `{row['path']}`")
+        if row["section_title"]:
+            print(f"- Section: `{row['section_title']}`")
         if row['quality_flags'] != "[]":
             print(f"- Quality flags: `{row['quality_flags']}`")
         print("\n> " + textwrap.fill(excerpt(row['text'], args.question), width=100, subsequent_indent="> "))
         print()
     print("## Instruction for answer\n")
-    print("Answer from these sources only. Give the practical rule first, then explanation, and cite PDF page plus Markdown path.")
+    print("Answer from these sources only. Give a thesis first, then key points, and cite Markdown paths.")
 
 
 if __name__ == "__main__":
