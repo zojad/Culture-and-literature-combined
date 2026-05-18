@@ -2,7 +2,7 @@
 title: Open questions
 type: maintenance
 status: active
-last_updated: 2026-05-16
+last_updated: 2026-05-17
 ---
 
 # Open questions
@@ -16,7 +16,6 @@ last_updated: 2026-05-16
 
 ## needs_source (glossary candidates)
 
-- **Victorian values**: appears in exam prompts; add only after a direct definitional corpus passage is pinned.
 - **Postmodernism**: appears in exam prompts; corpus support is currently too indirect for a strict glossary definition.
 - **New Journalism**: currently only contextual support; add after direct definitional passage is pinned.
 - **Interculturality**: appears in exam prompts; add after stronger direct corpus support is pinned.

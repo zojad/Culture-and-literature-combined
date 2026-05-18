@@ -2,12 +2,18 @@
 title: Wiki log
 type: log
 status: active
-last_updated: 2026-05-11
+last_updated: 2026-05-17
 ---
 
 # Wiki log
 
 Append-only chronological history of ingests, queries filed back into the wiki, lint passes, and source maintenance.
+
+## [2026-05-17] exam | expanded FF theme coverage
+
+- Added new exam theme pages for Victorian values, Anglican Church and English Reformation, Declaration of Independence, colonialism/postcolonialism, and English as L1/L2/EFL.
+- Kept the additions restricted to stable prompts from `questions_ff` and local Markdown corpus sources.
+- Updated `wiki/exam/README.md` and `wiki/index.md` to surface the new theme pages.
 
 ## [2026-05-11] amend | LLM Wiki alignment
 

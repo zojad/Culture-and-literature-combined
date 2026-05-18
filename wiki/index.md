@@ -2,7 +2,7 @@
 title: Wiki index
 type: index
 status: active
-last_updated: 2026-05-16
+last_updated: 2026-05-17
 source_count: 5
 ---
 
@@ -28,6 +28,11 @@ Read this first. This is the content-oriented catalog for the persistent exam wi
 - [Questions FF reference](exam/questions/questions-ff-reference.md)
 - [British Empire and Commonwealth](exam/themes/british-empire-and-commonwealth.md)
 - [Magna Carta and Domesday Book](exam/themes/magna-carta-and-domesday-book.md)
+- [Victorian values](exam/themes/victorian-values.md)
+- [Anglican Church and English Reformation](exam/themes/anglican-church-and-english-reformation.md)
+- [Declaration of Independence](exam/themes/declaration-of-independence.md)
+- [Colonialism and postcolonialism](exam/themes/colonialism-and-postcolonialism.md)
+- [English as L1, L2, and foreign language](exam/themes/english-as-l1-l2-efl.md)
 - [British history periods](exam/history/british-history-periods-overview.md)
 - [Literature periods/authors/works](exam/literature/periods-authors-and-works.md)
 - [UK history quick timeline](exam/timelines/uk-history-quick-timeline.md)

@@ -2,7 +2,7 @@
 title: Exam Wiki Starter
 type: index
 status: active
-last_updated: 2026-05-16
+last_updated: 2026-05-17
 sources:
   - us_culture
   - us_literature
@@ -17,6 +17,11 @@ This is an additive exam-focused wiki layer. It does not replace existing wiki p
 
 - [Source maps](sources/README.md)
 - [Themes](themes/british-empire-and-commonwealth.md)
+- [Victorian values](themes/victorian-values.md)
+- [Anglican Church and English Reformation](themes/anglican-church-and-english-reformation.md)
+- [Declaration of Independence](themes/declaration-of-independence.md)
+- [Colonialism and postcolonialism](themes/colonialism-and-postcolonialism.md)
+- [English as L1, L2, and foreign language](themes/english-as-l1-l2-efl.md)
 - [History periods overview](history/british-history-periods-overview.md)
 - [Anglo-Saxon and Norman monarchs](history/monarchs-anglo-saxon-and-norman.md)
 - [Literature periods/authors/works](literature/periods-authors-and-works.md)
